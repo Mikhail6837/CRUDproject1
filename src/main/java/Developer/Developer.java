@@ -6,6 +6,7 @@ public class Developer implements Serializable {
 
     private int id;
     private String name;
+    private String lastname;
     private String programmingLanguage;
 
     public int getId() {
@@ -15,6 +16,13 @@ public class Developer implements Serializable {
     public void setId(int id) {
 
         this.id = id;
+    }
+    public String getLastName() {
+        return lastname;
+    }
+
+    public void setLastName(String lastname) {
+        this.lastname = lastname;
     }
 
     public String getName() {

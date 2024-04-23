@@ -2,7 +2,9 @@ package Developer;
 
 public class Main {
     public static void main(String[] args) {
-        DeveloperDAO developerDAO = new DeveloperDAO();
+        DeveloperCreate developerDAO = new DeveloperCreate();
         developerDAO.createDeveloper();
+        ReadDeveloper read = new ReadDeveloper();
+        read.getAllDevelopers();
     }}
 
